@@ -38,9 +38,9 @@ class listaCircular:
         aux=self.primero
         while(aux!=None):
             if (aux.dato==busca):
-                print("Dato Actual ---> ",aux.dato)
-                print("Dato Siguiente --->> ",aux.siguiente.dato)
-                print("Dato Anterior <<-------",aux.anterior.dato)
+                print("     Dato Actual ---> ",aux.dato)
+                print("     Dato Siguiente --->> ",aux.siguiente.dato)
+                print("     Dato Anterior <<-------",aux.anterior.dato)
             if (aux.siguiente==self.primero):
                 return
             aux=aux.siguiente
