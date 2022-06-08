@@ -1,0 +1,11 @@
+from listaCircular import listaCircular
+print("LISTA DOBLE")
+lista = listaCircular()
+lista.insertar(5)
+lista.insertar(22)
+lista.insertar(1)
+lista.insertar(3)
+lista.insertar(102)
+lista.imprimir()
+print("NUMERO SELECCIONADO --5--")
+lista.buscar(5)
